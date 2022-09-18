@@ -1,12 +1,15 @@
-public class Weapon {
-    private String weaponType;
-
+public class Weapon extends EnumWeaponType{
+    protected Weapon() {
+        super();
+        this.setWeaponType(warWeapon);
+    }
+    private String weaponName;
     public String getWeaponType() {
-        return weaponType;
+        return warWeapon;
     }
 
     public void setWeaponType(String weaponType) {
-        this.weaponType = weaponType;
+        this.warWeapon = weaponType;
     }
 
     public String getWeaponName() {
@@ -17,5 +20,6 @@ public class Weapon {
         this.weaponName = weaponName;
     }
 
-    private String weaponName;
+
+
 }

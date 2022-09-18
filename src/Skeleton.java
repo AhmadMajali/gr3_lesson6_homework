@@ -18,5 +18,4 @@ public class Skeleton extends Boss{
     public String info (){
         return super.info() + " " + arrow;
     }
-
 }

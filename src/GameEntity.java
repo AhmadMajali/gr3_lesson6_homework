@@ -1,7 +1,4 @@
 public class GameEntity {
-
-    private int Health;
-    private int damage;
     public int getType() {
         return Health;
     }
@@ -23,4 +20,8 @@ public class GameEntity {
         this.damage = damage;
     }
 
+    private int Health;
+
+
+    private int damage;
 }
